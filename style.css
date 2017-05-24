@@ -1,0 +1,102 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+*{
+  box-sizing: border-box;
+  font-family: helvetica, Arial, sans-serif;
+}
+#logo{
+  padding-top: 80px;
+}
+header{
+  background-color: #ff8523;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.main_navigation{
+  padding-top: 15px;
+  padding-left: 10px;
+  border: 3px solid #ff8523;
+}
+nav a{
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  padding:7px 20px;
+  border-radius: 3px;
+  font-weight:bold;
+}
+#page_content{
+  margin-left: 10px;
+}
+section h2{
+  color: #1fabe5;
+  border-top: 4px solid #dddddd;
+  padding-top: 30px;
+}
+p a{
+  color: #1fabe5;
+}
+section h3{
+  color: #1fabe5;
+}
+li{
+  padding: 3px;
+}
+
+ul{
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+tbody td {
+  height: 50px;
+
+}
+table, tr, td{
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+thead{
+  background-color: #1fabe5;
+  color: white;
+}
+thead tr{
+  height: 30px;
+}
+tbody img{
+  padding: 10px;
+}
+tbody td{
+  padding: 0 35px;
+  text-align: left;
+}
+table{
+  margin-bottom: 30px;
+  border-bottom: 3px solid #dddddd;
+}
+form{
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 5px;
+}
+.name{
+  background-color: #ff8523;
+  padding: 50px;
+  border-radius: 5px;
+  color: white;
+  margin: 20px 0px;
+}
+.name input{
+  padding: 10px;
+}
